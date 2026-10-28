@@ -59,8 +59,6 @@ services:
     environment:
       BACKEND_URL: http://backend:8000
       FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
-    ports:
-      - "${PORT:-3000}:8080"
     depends_on:
       - backend
 

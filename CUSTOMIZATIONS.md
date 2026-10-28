@@ -14,7 +14,12 @@ Este arquivo serve como mapa de memória para o assistente de IA (Antigravity) e
 
 ## 📝 Histórico de Customizações
 
-*(Nenhuma customização adicionada ainda. As novas funcionalidades serão listadas abaixo com data, arquivos afetados e pontos de integração).*
+### [2026-10-28] - Infraestrutura de Deploy no Easypanel
+* **Objetivo:** Adicionado arquivo Docker Compose específico para Easypanel com build automático de backend e frontend a partir da branch `custom-prod`.
+* **Arquivos Criados:**
+  * `docker-compose.easypanel.yml`
+* **Pontos de Acoplamento:**
+  * Conecta com `backend/Dockerfile` e `frontend/Dockerfile`.
 
 ### Exemplo de Formato para Novos Registros:
 ```markdown
